@@ -369,7 +369,7 @@ function HomePage() {
                     onChange={(e) => setContent(e.target.value)}
                     placeholder="Type message"
                     value={content}
-                    onKeyPress={(e) => {
+                    onKeyDown={(e) => {
                       if (e.key === "Enter") {
                         handleCreateNewMessage();
                         setContent("");
