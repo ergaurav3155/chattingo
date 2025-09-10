@@ -68,7 +68,7 @@ Copy code
 
 ### 1️⃣ Clone the Repository  
 ```bash
-git clone https://github.com/YOUR_USERNAME/chattingo.git
+git clone https://github.com/ergaurav3155/chattingo/tree/main
 cd chattingo
 2️⃣ Setup Environment
 bash
@@ -80,9 +80,9 @@ bash
 Copy code
 docker-compose up --build -d
 4️⃣ Access the App
-Frontend → http://localhost:3000
+Frontend → http://Ip-address:3000
 
-Backend → http://localhost:8080
+Backend → http://Ip-Address:8080
 
 📦 Useful Commands
 bash
