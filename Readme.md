@@ -82,7 +82,7 @@ docker-compose up --build -d
 4️⃣ Access the App
 Frontend → http://Ip-address:3000
 
-Backend → http://Ip-Address:8080
+Backend → http://Ip-Address:8081
 
 📦 Useful Commands
 bash
@@ -134,17 +134,4 @@ Open-source project — free to use, improve, and share.
 
 ✨ Built with ❤️ during a Hackathon to showcase modern full-stack engineering + DevOps excellence.
 
-yaml
-Copy code
 
----
-
-Would you like me to also **add a Hackathon “Team Members” & “Challenge Statement” section** (like many hackathon submissions require), or keep it strictly technical?
-
-
-
-
-
-
-
-Ask ChatGPT
