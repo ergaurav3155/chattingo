@@ -37,7 +37,11 @@ public class MessageController {
     @PostMapping("/create")
     public ResponseEntity<Message> sendMessageHandler(@RequestBody SendMessageRequest sendMessageRequest,
             @RequestHeader("Authorization") String jwt) throws UserException, ChatException {
-
+        
+            if (jwt.startsWith("Bearer ")) {
+                jwt = jwt.substring(7);
+            }
+        
         User user = this.userService.findUserProfile(jwt);
 
         sendMessageRequest.setUserId(user.getId());
