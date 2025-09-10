@@ -37,7 +37,7 @@ services:
     image: gaurav3155/chattingo-frontend:${BUILD_NUMBER:-latest}
     container_name: chattingo-frontend
     ports:
-      - "80:80"
+      - "3000:80"
     depends_on:
       - backend
 
