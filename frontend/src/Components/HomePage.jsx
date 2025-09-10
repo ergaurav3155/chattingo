@@ -373,6 +373,7 @@ function HomePage() {
                       if (e.key === "Enter") {
                         handleCreateNewMessage();
                         setContent("");
+                        e.preventDefault();
                       }
                     }}
                   />
