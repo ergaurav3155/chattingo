@@ -38,6 +38,7 @@ public class AppConfig {
 
         http.sessionManagement(management -> management.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(authorize -> authorize.requestMatchers("/api/**").authenticated()
+                        .requestMatchers("/favicon.ico").permitAll()
                         .anyRequest().permitAll())
                 .addFilterBefore(jwtValidator, BasicAuthenticationFilter.class)
                 .csrf(csrf -> csrf.disable())
